@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing my skills and projects.">
+    <!-- Google Fonts: Outfit for a modern, tech-oriented look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Background -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="header">
+        <a href="#" class="logo"></a>
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <span class="greeting">Hello, I'm</span>
+                <h2>Mohamed Akil M R</h2>
+                <h3 class="text-animation">I'm an <span id="typed-text"></span><span class="cursor">|</span></h3>
+                <p>AI enthusiast currently pursuing B.Tech in Artificial Intelligence and Data Science. Skilled in Python, machine learning, deep learning, and full-stack development. Experienced in building scalable web applications.</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/mohamedakil" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed-akil-16b086371" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:mohamedakil029@gmail.com"><i class='bx bx-envelope'></i></a>
+                </div>
+
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <!-- Placeholder using Dicebear API for a modern avatar -->
+                    <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John&backgroundColor=1f2937"
+                        alt="Profile Vector">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <h3>AI Enthusiast & Full-Stack Developer</h3>
+                    <p>I am an AI enthusiast currently pursuing my B.Tech in Artificial Intelligence and Data Science at Chettinad College of Engineering & Technology, Anna University. With a CGPA of 7.45, I am passionate about technology and problem-solving. My core skills include Python, machine learning, deep learning, and full-stack web development using the MERN stack.</p>
+                    
+                    <h3 style="margin-top: 2rem; font-size: 1.8rem; color: #fff;">Education</h3>
+                    <div style="margin-top: 1rem;">
+                        <h4 style="font-size: 1.2rem; color: var(--primary-color);">Bachelor of Technology – Artificial Intelligence and Data Science</h4>
+                        <p style="font-size: 1rem; color: var(--text-muted);">Chettinad College of Engineering & Technology, Anna University <br>
+                        Expected Graduation: 2027 | CGPA: 7.45</p>
+                    </div>
+
+                    <h3 style="margin-top: 2rem; font-size: 1.8rem; color: #fff;">Achievements</h3>
+                    <ul style="margin-top: 1rem; list-style-position: inside; color: var(--text-muted); font-size: 1rem; line-height: 1.6;">
+                        <li>Secured 3rd Prize in a college-level competition for designing and developing a CNC 2DPlotter.</li>
+                        <li>Selected for the Naan Mudhalvan State-Level Hackathon from among 10,000+ participants, advancing to the Top 400 teams across Tamil Nadu.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <h2 class="heading">Professional <span>Experience</span></h2>
+            
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <div class="experience-item">
+                        <h3 style="font-size: 1.8rem; color: #fff;">Full Stack Developer Intern — IBM</h3>
+                        <p style="color: var(--primary-color); margin-bottom: 1rem; font-weight: bold; font-size: 1.1rem;">Sept 2025 – Nov 2025</p>
+                        <ul style="list-style-position: inside; color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                            <li>Developed and deployed full-stack web applications using the MERN stack.</li>
+                            <li>Designed RESTful APIs and managed MongoDB/MySQL databases.</li>
+                            <li>Participated in Agile sprints focusing on debugging and performance optimization.</li>
+                            <li>Collaborated with teams to deliver scalable solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+
+            <div class="skills-container">
+                <div class="skill-category glass-card">
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class='bx bxl-python'></i> Python</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3>AI & Data Science</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class='bx bx-brain'></i> Machine Learning</span>
+                        <span class="tag"><i class='bx bx-network-chart'></i> Deep Learning</span>
+                        <span class="tag"><i class='bx bx-bot'></i> Artificial Intelligence</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3>Web Dev & Databases</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class='bx bxl-react'></i> MERN Stack</span>
+                        <span class="tag"><i class='bx bx-data'></i> REST APIs</span>
+                        <span class="tag"><i class='bx bxl-mongodb'></i> MongoDB</span>
+                        <span class="tag"><i class='bx bx-data'></i> MySQL</span>
+                        <span class="tag"><i class='bx bx-cloud'></i> Cloud Computing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="projects-container">
+                <div class="project-box glass-card">
+                    <img src="C:\Users\ELCOT\.gemini\antigravity\brain\863e63a9-c0d5-4aa4-ab07-76ca6e414bc5\hand_gesture_recognition_1773092308908.png"
+                        alt="Hand Gesture Recognition">
+                    <div class="project-info">
+                        <h4>Hand Gesture Recognition Using Python</h4>
+                        <p>A real-time hand gesture recognition system using Python and computer vision techniques. Enabled gesture-based interaction to control applications.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>OpenCV</span><span>MediaPipe</span>
+                        </div>
+                        <a href="#" class="btn project-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="project-box glass-card">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800"
+                        alt="MERN Stack Project">
+                    <div class="project-info">
+                        <h4>Full Stack Web Application</h4>
+                        <p>A scalable full-stack web application bridging frontend and backend efficiently. Developed during IBM internship focusing on optimization.</p>
+                        <div class="project-tech">
+                            <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
+                        </div>
+                        <a href="#" class="btn project-btn">Live View</a>
+                    </div>
+                </div>
+
+                <div class="project-box glass-card">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800"
+                        alt="CNC 2DPlotter Project">
+                    <div class="project-info">
+                        <h4>CNC 2DPlotter Design</h4>
+                        <p>Designed and developed a CNC 2DPlotter demonstrating strong technical and design skills. Secured 3rd Prize in a college-level competition.</p>
+                        <div class="project-tech">
+                            <span>Design</span><span>Hardware</span><span>Prototyping</span>
+                        </div>
+                        <a href="#" class="btn project-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently available for freelance work and full-time opportunities. Send me a message and
+                        we'll discuss your project.</p>
+
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <p><a href="mailto:mohamedakil029@gmail.com" style="color: inherit;">mohamedakil029@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <p><a href="tel:+919342345196" style="color: inherit;">+91 9342345196</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <p>Trichy, Tamil Nadu, India</p>
+                    </div>
+                </div>
+
+                <form action="#" class="contact-form glass-card">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required class="full-width">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer glass-card">
+        <p>&copy; 2026 Mohamed Akil M R. All Rights Reserved.</p>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
